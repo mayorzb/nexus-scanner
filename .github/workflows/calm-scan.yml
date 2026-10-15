@@ -1,0 +1,38 @@
+name: calm-scan
+
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: calm-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Recheck old prices, then run the scan
+        run: python calm_dashboard.py --once --recheck
+      - name: Write the daily brief
+        run: python daily_brief.py
+      - name: Save results
+        run: |
+          git config user.name "calm-bot"
+          git config user.email "calm-bot@users.noreply.github.com"
+          git add dashboard.html brief_latest.md briefs
+          for f in paper_trades.csv shadow_log.csv concept_log_v1_4.csv spot_cache.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
+          git diff --cached --quiet || git commit -m "calm scan $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase
+          git push
