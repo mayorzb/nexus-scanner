@@ -1,21 +1,21 @@
-# Money Copilot brief - Thu 15 Oct 2026, 18:33 UTC
+# Money Copilot brief - Thu 15 Oct 2026, 19:30 UTC
 
 ## Scanner
-- Coins logged: **184** (184 new in the last 24h), across 0.1 days
+- Coins logged: **227** (227 new in the last 24h), across 0.2 days
 - Last scan: 0.0h ago
-- Liquidity unreadable today: 2 of 184 (1%)
-- Liquidity unreadable overall: 2 of 184 (1%)
+- Liquidity unreadable today: 2 of 227 (1%)
+- Liquidity unreadable overall: 2 of 227 (1%)
 - Market weather at the latest scan: **NEUTRAL**
-- Passed every check in the last 24h (paper only, NOT safe): LEEKDUCK, BOUNCER, BOTTLE, DADOGE, $OTCATWALK, PEGE, GRAIL
+- Passed every check in the last 24h (paper only, NOT safe): LEEKDUCK, BOUNCER, BOTTLE, DADOGE, $OTCATWALK, PEGE, GRAIL, PEDO
 
 ## v1.4 test progress
 - Coins with a 24h outcome: **0 of 100**
 - Status: **too early to judge.** Keep the rules frozen and let the data arrive.
 
 ## Paper trades
-- Logged: **8** (8 still open), with a result so far: 6
-- Median result after costs: -90.6%   losers: 83%
-- Worst so far: LEEKDUCK at -101%
+- Logged: **9** (9 still open), with a result so far: 8
+- Median result after costs: -99.9%   losers: 100%
+- Worst so far: $OTCATWALK at -101%
 
 ## Risk flags
 - None. Everything this brief can check looks normal.
