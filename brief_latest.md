@@ -1,24 +1,24 @@
-# Money Copilot brief - Fri 16 Oct 2026, 11:29 UTC
+# Money Copilot brief - Fri 16 Oct 2026, 12:37 UTC
 
 ## Scanner
-- Coins logged: **795** (795 new in the last 24h), across 0.8 days
+- Coins logged: **828** (828 new in the last 24h), across 0.9 days
 - Last scan: 0.0h ago
-- Liquidity unreadable today: 11 of 795 (1%)
-- Liquidity unreadable overall: 11 of 795 (1%)
+- Liquidity unreadable today: 11 of 828 (1%)
+- Liquidity unreadable overall: 11 of 828 (1%)
 - Market weather at the latest scan: **GREEN**
-- Passed every check in the last 24h (paper only, NOT safe): LEEKDUCK, BOUNCER, BOTTLE, DADOGE, $OTCATWALK, PEGE, GRAIL, PEDO, DOGEUS, MIM, OWLDACITY, Starman, DOGEFATHER, KWIF, FINUL, BREAK, ROOMS, CatTok, BANANA, 1, OTCI, ELON-SAN, LOOM, ELON-SAN, Moonoween, EVERYTHING, GOAT11, USDC
+- Passed every check in the last 24h (paper only, NOT safe): LEEKDUCK, BOUNCER, BOTTLE, DADOGE, $OTCATWALK, PEGE, GRAIL, PEDO, DOGEUS, MIM, OWLDACITY, Starman, DOGEFATHER, KWIF, FINUL, BREAK, ROOMS, CatTok, BANANA, 1, OTCI, ELON-SAN, LOOM, ELON-SAN, Moonoween, EVERYTHING, GOAT11, USDC, Caramel
 
 ## v1.4 test progress
 - Coins with a 24h outcome: **0 of 100**
 - Status: **too early to judge.** Keep the rules frozen and let the data arrive.
 
 ## Paper trades
-- Logged: **32** (32 still open), with a result so far: 31
-- Median result after costs: -100.0%   losers: 84%
+- Logged: **34** (34 still open), with a result so far: 32
+- Median result after costs: -82.5%   losers: 91%
 - Worst so far: $OTCATWALK at -101%
 
 ## Risk flags
-- WATCH: Paper trades have a median result of -100% after costs.
+- WATCH: Paper trades have a median result of -82% after costs.
 
 ## One next step
 Do nothing to the rules. About 100 more 24h outcomes are needed before judging the gate.
