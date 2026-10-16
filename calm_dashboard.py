@@ -125,7 +125,8 @@ def write_html(data, demo=False):
         symbol = base.get("symbol") or "n/a"
         age = cs.age_hours(p)
         age_text = "n/a" if age is None else (f"{age:.1f}h" if age < 48 else f"{age / 24:.1f}d")
-        price_text = value(p.get("priceUsd"), "$", precision=8)
+        price = cs.to_float(p.get("priceUsd"))
+        price_text = "n/a" if price is None else f"${price:.8g}"
         liquidity = cs.liquidity_of(p)
         liquidity_text = value(liquidity, "$", precision=0)
         liq_source = p.get("_liq_src") or "source unknown"
