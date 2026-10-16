@@ -54,14 +54,18 @@ CSS = """
 :root{--bg:#f4f6f8;--card:#fff;--text:#1d2630;--mute:#66727f;--line:#e2e7ec;--acc:#8aa4c8}
 @media(prefers-color-scheme:dark){:root{--bg:#0f1720;--card:#17212b;--text:#e6edf3;--mute:#93a1ae;--line:#25323f}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);
-font:16px/1.5 -apple-system,system-ui,Segoe UI,Roboto,sans-serif;padding:16px;max-width:640px;margin:auto}
+font:16px/1.5 -apple-system,system-ui,Segoe UI,Roboto,sans-serif;padding:16px;max-width:1280px;margin:auto}
 h1{font-size:20px;margin:4px 0 2px}.mute{color:var(--mute);font-size:13px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:12px 0}
 .weather{border-left:6px solid var(--acc)}.big{display:flex;gap:10px}
 .big div{flex:1;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;text-align:center}
 .big b{display:block;font-size:30px}.sym{font-weight:700}.pill{font-size:12px;padding:2px 8px;border-radius:99px;
-background:var(--line)}table{width:100%;border-collapse:collapse}td{padding:6px 2px;border-top:1px solid var(--line);font-size:14px}
-.up{color:#3fa66b}.down{color:#d06a62}details summary{cursor:pointer;color:var(--mute)}
+background:var(--line)}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse}
+th,td{padding:8px;border-top:1px solid var(--line);font-size:13px;text-align:left;vertical-align:top}
+th{position:sticky;top:0;background:var(--card);color:var(--mute);white-space:nowrap}
+.coin-table{min-width:1180px}.coin-name{min-width:150px}.address{font-family:ui-monospace,monospace;overflow-wrap:anywhere;max-width:210px}
+.details-cell{white-space:normal;min-width:240px;max-width:360px}.up{color:#3fa66b}.down{color:#d06a62}
+details summary{cursor:pointer;color:var(--mute)}
 .calm{text-align:center;font-style:italic;padding:14px;color:var(--mute)}
 """
 ACCENT = {"GREEN": "#5fbf8f", "NEUTRAL": "#8aa4c8", "RED": "#e0a15a", "DEEP_RED": "#d9776f", "UNKNOWN": "#9aa0a6"}
@@ -77,6 +81,16 @@ def write_html(data, demo=False):
     avoided = [r for r in results if r["verdict"] in ("SKIP", "REJECT")]
     watch = [r for r in results if r["verdict"] in ("WATCH", "WATCH_LOGGED", "BENCH")]
     moves = ", ".join(f"{k} {v:+.1f}%" for k, v in w["changes"].items() if v is not None) or "no data"
+
+    def value(x, prefix="", suffix="", precision=2):
+        number = cs.to_float(x)
+        return "n/a" if number is None else f"{prefix}{number:,.{precision}f}{suffix}"
+
+    def change(x):
+        number = cs.to_float(x)
+        if number is None:
+            return "n/a", ""
+        return f"{number:+.1f}%", "up" if number >= 0 else "down"
 
     parts = [f"<!doctype html><html><head><meta charset='utf-8'>"
              f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
@@ -96,11 +110,43 @@ def write_html(data, demo=False):
         parts.append("<div class='card'>Stand-down day. Nothing here needs chasing. Look, learn, log.</div>")
     elif not watch:
         parts.append("<div class='card'>Nothing earned a place today. That's a good result.</div>")
-    for r in watch:
-        b = r["p"]["baseToken"]
-        parts.append(f"<div class='card'><span class='sym'>{esc(b['symbol'])}</span> "
-                     f"<span class='pill'>score {r['total']}</span> <span class='pill'>{esc(r['verdict'])}</span>"
-                     f"<div>{esc(r['rec'])}</div><div class='mute'>{esc(r['mint'])}</div></div>")
+
+    parts.append(f"<div class='card'><b>Coin scan results ({len(results)})</b>"
+                 "<div class='mute'>One row per coin, including skipped coins. Full token addresses identify the exact mint.</div>"
+                 "<div class='table-wrap'><table class='coin-table'><thead><tr>"
+                 "<th>Name / symbol</th><th>Token address</th><th>Price</th><th>Liquidity</th>"
+                 "<th>Market cap</th><th>24h volume</th><th>Age</th><th>1h change</th><th>24h change</th>"
+                 "<th>Buys / sells (1h)</th><th>Score</th><th>Verdict</th><th>Scan details</th>"
+                 "</tr></thead><tbody>")
+    for r in results:
+        p = r["p"]
+        base = p.get("baseToken") or {}
+        name = base.get("name") or base.get("symbol") or "Unknown"
+        symbol = base.get("symbol") or "n/a"
+        age = cs.age_hours(p)
+        age_text = "n/a" if age is None else (f"{age:.1f}h" if age < 48 else f"{age / 24:.1f}d")
+        price_text = value(p.get("priceUsd"), "$", precision=8)
+        liquidity = cs.liquidity_of(p)
+        liquidity_text = value(liquidity, "$", precision=0)
+        liq_source = p.get("_liq_src") or "source unknown"
+        mcap_text = value(p.get("marketCap") or p.get("fdv"), "$", precision=0)
+        vol_text = value((p.get("volume") or {}).get("h24"), "$", precision=0)
+        price_change = p.get("priceChange") or {}
+        h1_text, h1_class = change(price_change.get("h1"))
+        h24_text, h24_class = change(price_change.get("h24"))
+        txns = (p.get("txns") or {}).get("h1") or {}
+        buys, sells = txns.get("buys"), txns.get("sells")
+        details = r.get("rec") or "; ".join(r.get("fails") or r.get("warns") or []) or "No additional details"
+        parts.append(
+            f"<tr><td class='coin-name'><b>{esc(name)}</b><br><span class='mute'>{esc(symbol)}</span></td>"
+            f"<td class='address'>{esc(r['mint'])}</td><td>{esc(price_text)}</td>"
+            f"<td>{esc(liquidity_text)}<br><span class='mute'>{esc(liq_source)}</span></td>"
+            f"<td>{esc(mcap_text)}</td><td>{esc(vol_text)}</td><td>{esc(age_text)}</td>"
+            f"<td class='{h1_class}'>{esc(h1_text)}</td><td class='{h24_class}'>{esc(h24_text)}</td>"
+            f"<td>{esc(buys if buys is not None else 'n/a')} / {esc(sells if sells is not None else 'n/a')}</td>"
+            f"<td>{esc(r['total'])}</td><td><span class='pill'>{esc(r['verdict'])}</span></td>"
+            f"<td class='details-cell'>{esc(details)}</td></tr>")
+    parts.append("</tbody></table></div></div>")
 
     ls = data["liq_stats"]
     parts.append(f"<div class='card'><b>Visibility</b><div class='mute'>Liquidity unknown in the main feed: "
@@ -131,13 +177,6 @@ def write_html(data, demo=False):
             parts.append(f"<tr><td class='sym'>{esc(sym)}</td><td class='mute'>{esc(when)}</td>"
                          f"<td class='{cls}' style='text-align:right'>{txt}</td></tr>")
         parts.append("</table><div class='mute'>Unrealised and paper only. Most of these will fade.</div></div>")
-
-    if avoided:
-        parts.append(f"<details class='card'><summary>Skipped or rejected ({len(avoided)})</summary><table>")
-        for r in avoided:
-            parts.append(f"<tr><td class='sym'>{esc(r['p']['baseToken']['symbol'][:12])}</td>"
-                         f"<td class='mute'>{esc(r['rec'][:140])}</td></tr>")
-        parts.append("</table></details>")
 
     line = cs.CALM_LINES[datetime.now().toordinal() % len(cs.CALM_LINES)]
     parts.append(f"<div class='calm'>{esc(line)}</div>"
