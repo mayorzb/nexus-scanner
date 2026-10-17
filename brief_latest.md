@@ -1,21 +1,21 @@
-# Money Copilot brief - Sat 17 Oct 2026, 11:24 UTC
+# Money Copilot brief - Sat 17 Oct 2026, 12:29 UTC
 
 ## Scanner
-- Coins logged: **1099** (337 new in the last 24h), across 1.8 days
+- Coins logged: **1131** (336 new in the last 24h), across 1.9 days
 - Last scan: 0.0h ago
-- Liquidity unreadable today: 1 of 337 (0%)
-- Liquidity unreadable overall: 12 of 1099 (1%)
+- Liquidity unreadable today: 2 of 336 (1%)
+- Liquidity unreadable overall: 13 of 1131 (1%)
 - Market weather at the latest scan: **NEUTRAL**
-- Passed every check in the last 24h (paper only, NOT safe): USDC, Caramel, SOCKSS, Audaster, SR, DUO, ZeroFee
+- Passed every check in the last 24h (paper only, NOT safe): Caramel, SOCKSS, Audaster, SR, DUO, ZeroFee
 
 ## v1.4 test progress
-- Coins with a 24h outcome: **588 of 100**
-- Blocked by the gate: 69% lost 70%+, 1% doubled (n=558)
-- Survivors: 76% lost 70%+, 0% doubled (n=25)
+- Coins with a 24h outcome: **621 of 100**
+- Blocked by the gate: 69% lost 70%+, 1% doubled (n=590)
+- Survivors: 77% lost 70%+, 0% doubled (n=26)
 
 ## Paper trades
-- Logged: **41** (10 still open), with a result so far: 40
-- Median result after costs: -98.2%   losers: 100%
+- Logged: **41** (9 still open), with a result so far: 41
+- Median result after costs: -98.3%   losers: 98%
 - Worst so far: Audaster at -101%
 
 ## Risk flags
