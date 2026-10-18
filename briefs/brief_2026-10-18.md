@@ -1,21 +1,21 @@
-# Money Copilot brief - Sun 18 Oct 2026, 13:29 UTC
+# Money Copilot brief - Sun 18 Oct 2026, 14:24 UTC
 
 ## Scanner
-- Coins logged: **1970** (804 new in the last 24h), across 2.9 days
+- Coins logged: **2003** (807 new in the last 24h), across 3.0 days
 - Last scan: 0.0h ago
-- Liquidity unreadable today: 16 of 804 (2%)
-- Liquidity unreadable overall: 30 of 1970 (2%)
+- Liquidity unreadable today: 15 of 807 (2%)
+- Liquidity unreadable overall: 30 of 2003 (1%)
 - Market weather at the latest scan: **NEUTRAL**
-- Passed every check in the last 24h (paper only, NOT safe): ANIMA, PoUT, :3, blocus, Ventrion, Pingus, Dip, Schrödinger, Chaton, PIONYR, DEGEN, QTITS, fun, CATSZN, ESI, MASSIVE, PIPS, ZDOG
+- Passed every check in the last 24h (paper only, NOT safe): ANIMA, PoUT, :3, blocus, Ventrion, Pingus, Dip, Schrödinger, Chaton, PIONYR, DEGEN, QTITS, fun, CATSZN, ESI, MASSIVE, PIPS, ZDOG, Gold
 
 ## v1.4 test progress
-- Coins with a 24h outcome: **988 of 100**
-- Blocked by the gate: 68% lost 70%+, 1% doubled (n=945)
+- Coins with a 24h outcome: **1017 of 100**
+- Blocked by the gate: 68% lost 70%+, 1% doubled (n=974)
 - Survivors: 75% lost 70%+, 3% doubled (n=32)
 
 ## Paper trades
-- Logged: **66** (24 still open), with a result so far: 64
-- Median result after costs: -99.0%   losers: 92%
+- Logged: **67** (24 still open), with a result so far: 66
+- Median result after costs: -98.9%   losers: 92%
 - Worst so far: Chaton at -101%
 
 ## Risk flags
