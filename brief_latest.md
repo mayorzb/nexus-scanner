@@ -1,25 +1,25 @@
-# Money Copilot brief - Sun 18 Oct 2026, 17:23 UTC
+# Money Copilot brief - Sun 18 Oct 2026, 18:27 UTC
 
 ## Scanner
-- Coins logged: **2116** (811 new in the last 24h), across 3.1 days
+- Coins logged: **2152** (804 new in the last 24h), across 3.1 days
 - Last scan: 0.0h ago
-- Liquidity unreadable today: 13 of 811 (2%)
-- Liquidity unreadable overall: 31 of 2116 (1%)
+- Liquidity unreadable today: 8 of 804 (1%)
+- Liquidity unreadable overall: 31 of 2152 (1%)
 - Market weather at the latest scan: **NEUTRAL**
-- Passed every check in the last 24h (paper only, NOT safe): PoUT, :3, blocus, Ventrion, Pingus, Dip, Schrödinger, Chaton, PIONYR, DEGEN, QTITS, fun, CATSZN, ESI, MASSIVE, PIPS, ZDOG, Gold, RIOT, CATONICE
+- Passed every check in the last 24h (paper only, NOT safe): blocus, Ventrion, Pingus, Dip, Schrödinger, Chaton, PIONYR, DEGEN, QTITS, fun, CATSZN, ESI, MASSIVE, PIPS, ZDOG, Gold, RIOT, CATONICE, DCITY
 
 ## v1.4 test progress
-- Coins with a 24h outcome: **1123 of 100**
-- Blocked by the gate: 67% lost 70%+, 1% doubled (n=1077)
-- Survivors: 76% lost 70%+, 3% doubled (n=33)
+- Coins with a 24h outcome: **1168 of 100**
+- Blocked by the gate: 66% lost 70%+, 1% doubled (n=1120)
+- Survivors: 71% lost 70%+, 3% doubled (n=35)
 
 ## Paper trades
-- Logged: **70** (25 still open), with a result so far: 69
-- Median result after costs: -98.4%   losers: 88%
-- Worst so far: Chaton at -101%
+- Logged: **72** (25 still open), with a result so far: 70
+- Median result after costs: -98.6%   losers: 87%
+- Worst so far: Audaster at -101%
 
 ## Risk flags
-- WATCH: Paper trades have a median result of -98% after costs.
+- WATCH: Paper trades have a median result of -99% after costs.
 
 ## One next step
 Run `python concept_scorer_v1_4.py --report` and review the rules one at a time. Log any change and restart the count.
