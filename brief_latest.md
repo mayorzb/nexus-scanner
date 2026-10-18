@@ -1,10 +1,10 @@
-# Money Copilot brief - Sun 18 Oct 2026, 04:27 UTC
+# Money Copilot brief - Sun 18 Oct 2026, 05:25 UTC
 
 ## Scanner
-- Coins logged: **1707** (763 new in the last 24h), across 2.5 days
+- Coins logged: **1735** (791 new in the last 24h), across 2.6 days
 - Last scan: 0.0h ago
-- Liquidity unreadable today: 17 of 763 (2%)
-- Liquidity unreadable overall: 28 of 1707 (2%)
+- Liquidity unreadable today: 18 of 791 (2%)
+- Liquidity unreadable overall: 29 of 1735 (2%)
 - Market weather at the latest scan: **NEUTRAL**
 - Passed every check in the last 24h (paper only, NOT safe): ZeroFee, ANIMA, PoUT, :3, blocus, Ventrion, Pingus, Dip, Schrödinger, Chaton, PIONYR, DEGEN, QTITS, fun, CATSZN, ESI
 
@@ -15,8 +15,8 @@
 
 ## Paper trades
 - Logged: **61** (23 still open), with a result so far: 61
-- Median result after costs: -95.1%   losers: 92%
-- Worst so far: $OTCATWALK at -101%
+- Median result after costs: -95.4%   losers: 92%
+- Worst so far: ESI at -101%
 
 ## Risk flags
 - WATCH: Paper trades have a median result of -95% after costs.
