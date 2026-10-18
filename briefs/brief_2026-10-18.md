@@ -1,10 +1,10 @@
-# Money Copilot brief - Sun 18 Oct 2026, 00:37 UTC
+# Money Copilot brief - Sun 18 Oct 2026, 01:31 UTC
 
 ## Scanner
-- Coins logged: **1580** (636 new in the last 24h), across 2.4 days
+- Coins logged: **1617** (673 new in the last 24h), across 2.4 days
 - Last scan: 0.0h ago
-- Liquidity unreadable today: 13 of 636 (2%)
-- Liquidity unreadable overall: 24 of 1580 (2%)
+- Liquidity unreadable today: 14 of 673 (2%)
+- Liquidity unreadable overall: 25 of 1617 (2%)
 - Market weather at the latest scan: **NEUTRAL**
 - Passed every check in the last 24h (paper only, NOT safe): ZeroFee, ANIMA, PoUT, :3, blocus, Ventrion, Pingus, Dip, Schrödinger, Chaton, PIONYR, DEGEN, QTITS, fun
 
@@ -14,13 +14,13 @@
 - Survivors: 77% lost 70%+, 0% doubled (n=31)
 
 ## Paper trades
-- Logged: **57** (19 still open), with a result so far: 55
-- Median result after costs: -96.0%   losers: 93%
+- Logged: **59** (21 still open), with a result so far: 57
+- Median result after costs: -95.0%   losers: 91%
 - Worst so far: $OTCATWALK at -101%
 
 ## Risk flags
 - WATCH: 21% of 24h price snapshots were missed. Run rechecks more often.
-- WATCH: Paper trades have a median result of -96% after costs.
+- WATCH: Paper trades have a median result of -95% after costs.
 
 ## One next step
 Run `python concept_scorer_v1_4.py --report` and review the rules one at a time. Log any change and restart the count.
