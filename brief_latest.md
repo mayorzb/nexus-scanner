@@ -1,21 +1,21 @@
-# Money Copilot brief - Mon 19 Oct 2026, 11:32 UTC
+# Money Copilot brief - Mon 19 Oct 2026, 12:39 UTC
 
 ## Scanner
-- Coins logged: **2725** (823 new in the last 24h), across 3.8 days
+- Coins logged: **2757** (819 new in the last 24h), across 3.9 days
 - Last scan: 0.0h ago
-- Liquidity unreadable today: 11 of 823 (1%)
-- Liquidity unreadable overall: 40 of 2725 (1%)
+- Liquidity unreadable today: 11 of 819 (1%)
+- Liquidity unreadable overall: 41 of 2757 (1%)
 - Market weather at the latest scan: **NEUTRAL**
-- Passed every check in the last 24h (paper only, NOT safe): ZDOG, Gold, RIOT, CATONICE, DCITY, DOGECAT, Vader, UV, Doomsday, MONEY, SOLCAT, TNUT, TONK, VP, Mimi
+- Passed every check in the last 24h (paper only, NOT safe): ZDOG, Gold, RIOT, CATONICE, DCITY, DOGECAT, Vader, UV, Doomsday, MONEY, SOLCAT, TNUT, TONK, VP, Mimi, RWA
 
 ## v1.4 test progress
-- Coins with a 24h outcome: **1717 of 100**
-- Blocked by the gate: 64% lost 70%+, 1% doubled (n=1644)
+- Coins with a 24h outcome: **1753 of 100**
+- Blocked by the gate: 64% lost 70%+, 1% doubled (n=1680)
 - Survivors: 73% lost 70%+, 2% doubled (n=51)
 
 ## Paper trades
-- Logged: **88** (24 still open), with a result so far: 88
-- Median result after costs: -99.0%   losers: 88%
+- Logged: **89** (25 still open), with a result so far: 88
+- Median result after costs: -98.8%   losers: 88%
 - Worst so far: Audaster at -101%
 
 ## Risk flags
