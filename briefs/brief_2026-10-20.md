@@ -1,21 +1,21 @@
-# Money Copilot brief - Tue 20 Oct 2026, 02:29 UTC
+# Money Copilot brief - Tue 20 Oct 2026, 03:31 UTC
 
 ## Scanner
-- Coins logged: **3304** (879 new in the last 24h), across 4.5 days
+- Coins logged: **3344** (850 new in the last 24h), across 4.5 days
 - Last scan: 0.0h ago
-- Liquidity unreadable today: 12 of 879 (1%)
-- Liquidity unreadable overall: 46 of 3304 (1%)
+- Liquidity unreadable today: 13 of 850 (2%)
+- Liquidity unreadable overall: 47 of 3344 (1%)
 - Market weather at the latest scan: **NEUTRAL**
-- Passed every check in the last 24h (paper only, NOT safe): TONK, VP, Mimi, RWA, Monaka, TONY, AOP, broomy, WORTHLESS, COUP, Octo, RAPR, SNACKS, VICEWIRE, SPIDEYSHOW, Potions, NPC, MILO, Onion, EMP, ₽, YOKAI, aDOGymous
+- Passed every check in the last 24h (paper only, NOT safe): TONK, VP, Mimi, RWA, Monaka, TONY, AOP, broomy, WORTHLESS, COUP, Octo, RAPR, SNACKS, VICEWIRE, SPIDEYSHOW, Potions, NPC, MILO, Onion, EMP, ₽, YOKAI, aDOGymous, DUST, Twyne
 
 ## v1.4 test progress
-- Coins with a 24h outcome: **2237 of 100**
-- Blocked by the gate: 63% lost 70%+, 1% doubled (n=2135)
+- Coins with a 24h outcome: **2266 of 100**
+- Blocked by the gate: 63% lost 70%+, 1% doubled (n=2164)
 - Survivors: 74% lost 70%+, 3% doubled (n=65)
 
 ## Paper trades
-- Logged: **109** (30 still open), with a result so far: 109
-- Median result after costs: -99.3%   losers: 90%
+- Logged: **111** (31 still open), with a result so far: 109
+- Median result after costs: -99.1%   losers: 90%
 - Worst so far: Audaster at -101%
 
 ## Risk flags
