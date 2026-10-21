@@ -1,10 +1,10 @@
-# Money Copilot brief - Wed 21 Oct 2026, 12:37 UTC
+# Money Copilot brief - Wed 21 Oct 2026, 13:39 UTC
 
 ## Scanner
-- Coins logged: **4467** (843 new in the last 24h), across 5.9 days
+- Coins logged: **4498** (874 new in the last 24h), across 5.9 days
 - Last scan: 0.0h ago
-- Liquidity unreadable today: 13 of 843 (2%)
-- Liquidity unreadable overall: 71 of 4467 (2%)
+- Liquidity unreadable today: 14 of 874 (2%)
+- Liquidity unreadable overall: 72 of 4498 (2%)
 - Market weather at the latest scan: **GREEN**
 - Passed every check in the last 24h (paper only, NOT safe): ARENA, PUMPKIN, MONEYBIZ, Bonnie, DIRTY, PEPEMON, CUMROCKET, Pikachu, DACITY, ILLUSTRATOR, PUNCHDOG, DOGGY, air, GEMMA, claytonkimm, Pokecity, KIMCHIBOSS, CPU, LORENZO, MINERS, Trencher, GUZZLEGOAT, MEME, zTERM, LASTAGENCY, PHP, HUSH
 
@@ -15,7 +15,7 @@
 
 ## Paper trades
 - Logged: **149** (28 still open), with a result so far: 149
-- Median result after costs: -99.4%   losers: 91%
+- Median result after costs: -99.4%   losers: 92%
 - Worst so far: Audaster at -101%
 
 ## Risk flags
