@@ -1,12 +1,12 @@
-# Money Copilot brief - Wed 21 Oct 2026, 08:34 UTC
+# Money Copilot brief - Wed 21 Oct 2026, 09:32 UTC
 
 ## Scanner
-- Coins logged: **4348** (849 new in the last 24h), across 5.7 days
+- Coins logged: **4377** (846 new in the last 24h), across 5.8 days
 - Last scan: 0.0h ago
-- Liquidity unreadable today: 13 of 849 (2%)
-- Liquidity unreadable overall: 64 of 4348 (1%)
+- Liquidity unreadable today: 12 of 846 (1%)
+- Liquidity unreadable overall: 66 of 4377 (2%)
 - Market weather at the latest scan: **GREEN**
-- Passed every check in the last 24h (paper only, NOT safe): PROWLER, ZEPHYR, ECHOTRIBBLE, PI, ARENA, PUMPKIN, MONEYBIZ, Bonnie, DIRTY, PEPEMON, CUMROCKET, Pikachu, DACITY, ILLUSTRATOR, PUNCHDOG, DOGGY, air, GEMMA, claytonkimm, Pokecity, KIMCHIBOSS, CPU, LORENZO, MINERS, Trencher, GUZZLEGOAT
+- Passed every check in the last 24h (paper only, NOT safe): PROWLER, ZEPHYR, ECHOTRIBBLE, PI, ARENA, PUMPKIN, MONEYBIZ, Bonnie, DIRTY, PEPEMON, CUMROCKET, Pikachu, DACITY, ILLUSTRATOR, PUNCHDOG, DOGGY, air, GEMMA, claytonkimm, Pokecity, KIMCHIBOSS, CPU, LORENZO, MINERS, Trencher, GUZZLEGOAT, MEME
 
 ## v1.4 test progress
 - Coins with a 24h outcome: **3303 of 100**
@@ -14,7 +14,7 @@
 - Survivors: 74% lost 70%+, 2% doubled (n=99)
 
 ## Paper trades
-- Logged: **144** (28 still open), with a result so far: 143
+- Logged: **145** (29 still open), with a result so far: 144
 - Median result after costs: -99.3%   losers: 92%
 - Worst so far: Audaster at -101%
 
