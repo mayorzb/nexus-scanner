@@ -1,21 +1,21 @@
-# Money Copilot brief - Thu 22 Oct 2026, 17:30 UTC
+# Money Copilot brief - Thu 22 Oct 2026, 18:32 UTC
 
 ## Scanner
-- Coins logged: **5496** (848 new in the last 24h), across 7.1 days
+- Coins logged: **5540** (892 new in the last 24h), across 7.1 days
 - Last scan: 0.0h ago
-- Liquidity unreadable today: 5 of 848 (1%)
-- Liquidity unreadable overall: 79 of 5496 (1%)
+- Liquidity unreadable today: 6 of 892 (1%)
+- Liquidity unreadable overall: 80 of 5540 (1%)
 - Market weather at the latest scan: **RED**
-- Passed every check in the last 24h (paper only, NOT safe): PLAZA, PNL, PHP2SHELL, CHOO, SLAB, BRIDGE, CLOUT, BABYKIMCHI, KIMCHI, kimchi, FRENS, CANTEXT, 1GTA, CYBERTRUMP, TIB, LASTCALL, MI, CHRM
+- Passed every check in the last 24h (paper only, NOT safe): PLAZA, PNL, PHP2SHELL, CHOO, SLAB, BRIDGE, CLOUT, BABYKIMCHI, KIMCHI, kimchi, FRENS, CANTEXT, 1GTA, CYBERTRUMP, TIB, LASTCALL, MI, CHRM, umi
 
 ## v1.4 test progress
-- Coins with a 24h outcome: **4402 of 100**
-- Blocked by the gate: 65% lost 70%+, 1% doubled (n=4178)
-- Survivors: 75% lost 70%+, 1% doubled (n=143)
+- Coins with a 24h outcome: **4438 of 100**
+- Blocked by the gate: 65% lost 70%+, 1% doubled (n=4213)
+- Survivors: 75% lost 70%+, 1% doubled (n=144)
 
 ## Paper trades
-- Logged: **177** (22 still open), with a result so far: 176
-- Median result after costs: -99.4%   losers: 91%
+- Logged: **178** (22 still open), with a result so far: 177
+- Median result after costs: -99.4%   losers: 92%
 - Worst so far: Audaster at -101%
 
 ## Risk flags
