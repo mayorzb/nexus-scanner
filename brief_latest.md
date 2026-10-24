@@ -1,25 +1,24 @@
-# Money Copilot brief - Sat 24 Oct 2026, 18:01 UTC
+# Money Copilot brief - Sat 24 Oct 2026, 20:38 UTC
 
 ## Scanner
-- Coins logged: **6296** (305 new in the last 24h), across 9.1 days
+- Coins logged: **6340** (308 new in the last 24h), across 9.2 days
 - Last scan: 0.0h ago
-- Liquidity unreadable today: 0 of 305 (0%)
-- Liquidity unreadable overall: 84 of 6296 (1%)
-- Market weather at the latest scan: **RED**
-- Passed every check in the last 24h (paper only, NOT safe): BITCHES, YMBCOIN, KURIBO, IC, CYBER, BERU, GORD, COIL, MI
+- Liquidity unreadable today: 2 of 308 (1%)
+- Liquidity unreadable overall: 86 of 6340 (1%)
+- Market weather at the latest scan: **NEUTRAL**
+- Passed every check in the last 24h (paper only, NOT safe): BITCHES, YMBCOIN, KURIBO, IC, CYBER, BERU, GORD, COIL, MI, SWORDOPE, CATTLEAXE
 
 ## v1.4 test progress
-- Coins with a 24h outcome: **5768 of 100**
-- Blocked by the gate: 66% lost 70%+, 1% doubled (n=5461)
+- Coins with a 24h outcome: **5809 of 100**
+- Blocked by the gate: 66% lost 70%+, 1% doubled (n=5501)
 - Survivors: 77% lost 70%+, 2% doubled (n=183)
 
 ## Paper trades
-- Logged: **198** (9 still open), with a result so far: 198
+- Logged: **200** (11 still open), with a result so far: 198
 - Median result after costs: -99.7%   losers: 94%
 - Worst so far: Audaster at -101%
 
 ## Risk flags
-- WATCH: Market weather is red: rules are stricter, expect fewer survivors.
 - WATCH: Paper trades have a median result of -100% after costs.
 
 ## One next step
