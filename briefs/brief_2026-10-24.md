@@ -1,21 +1,21 @@
-# Money Copilot brief - Sat 24 Oct 2026, 00:28 UTC
+# Money Copilot brief - Sat 24 Oct 2026, 05:40 UTC
 
 ## Scanner
-- Coins logged: **6120** (404 new in the last 24h), across 8.4 days
+- Coins logged: **6167** (275 new in the last 24h), across 8.6 days
 - Last scan: 0.0h ago
-- Liquidity unreadable today: 3 of 404 (1%)
-- Liquidity unreadable overall: 84 of 6120 (1%)
+- Liquidity unreadable today: 0 of 275 (0%)
+- Liquidity unreadable overall: 84 of 6167 (1%)
 - Market weather at the latest scan: **NEUTRAL**
-- Passed every check in the last 24h (paper only, NOT safe): KIMCHINU, kimchisol, CAPYGLOW, zonki, PETECOOPER, ogkimchi, eCat, McNugget, BITCHES, YMBCOIN, KURIBO, IC
+- Passed every check in the last 24h (paper only, NOT safe): PETECOOPER, ogkimchi, eCat, McNugget, BITCHES, YMBCOIN, KURIBO, IC, CYBER, BERU
 
 ## v1.4 test progress
-- Coins with a 24h outcome: **5494 of 100**
-- Blocked by the gate: 66% lost 70%+, 1% doubled (n=5199)
-- Survivors: 75% lost 70%+, 2% doubled (n=174)
+- Coins with a 24h outcome: **5668 of 100**
+- Blocked by the gate: 66% lost 70%+, 1% doubled (n=5367)
+- Survivors: 76% lost 70%+, 2% doubled (n=178)
 
 ## Paper trades
-- Logged: **193** (14 still open), with a result so far: 191
-- Median result after costs: -99.6%   losers: 93%
+- Logged: **195** (10 still open), with a result so far: 193
+- Median result after costs: -99.7%   losers: 94%
 - Worst so far: Audaster at -101%
 
 ## Risk flags
