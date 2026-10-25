@@ -1,20 +1,20 @@
-# Money Copilot brief - Sun 25 Oct 2026, 18:54 UTC
+# Money Copilot brief - Sun 25 Oct 2026, 21:38 UTC
 
 ## Scanner
-- Coins logged: **6604** (308 new in the last 24h), across 10.1 days
+- Coins logged: **6648** (308 new in the last 24h), across 10.3 days
 - Last scan: 0.0h ago
-- Liquidity unreadable today: 6 of 308 (2%)
-- Liquidity unreadable overall: 90 of 6604 (1%)
+- Liquidity unreadable today: 5 of 308 (2%)
+- Liquidity unreadable overall: 91 of 6648 (1%)
 - Market weather at the latest scan: **NEUTRAL**
-- Passed every check in the last 24h (paper only, NOT safe): SWORDOPE, CATTLEAXE, WRHND, LUCIA, PRUE, KURUMI, KID, BILLIONS, Bugmageddon, ZEC, PumpkinBot, KEKW, MAGA, musepad
+- Passed every check in the last 24h (paper only, NOT safe): WRHND, LUCIA, PRUE, KURUMI, KID, BILLIONS, Bugmageddon, ZEC, PumpkinBot, KEKW, MAGA, musepad, Chop
 
 ## v1.4 test progress
-- Coins with a 24h outcome: **6071 of 100**
-- Blocked by the gate: 66% lost 70%+, 1% doubled (n=5740)
-- Survivors: 77% lost 70%+, 2% doubled (n=195)
+- Coins with a 24h outcome: **6114 of 100**
+- Blocked by the gate: 66% lost 70%+, 1% doubled (n=5779)
+- Survivors: 77% lost 70%+, 2% doubled (n=199)
 
 ## Paper trades
-- Logged: **212** (14 still open), with a result so far: 209
+- Logged: **213** (13 still open), with a result so far: 212
 - Median result after costs: -99.8%   losers: 94%
 - Worst so far: Audaster at -101%
 
