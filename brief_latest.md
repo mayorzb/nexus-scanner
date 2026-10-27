@@ -1,20 +1,20 @@
-# Money Copilot brief - Mon 26 Oct 2026, 22:35 UTC
+# Money Copilot brief - Tue 27 Oct 2026, 01:59 UTC
 
 ## Scanner
-- Coins logged: **6853** (205 new in the last 24h), across 11.3 days
+- Coins logged: **6896** (210 new in the last 24h), across 11.4 days
 - Last scan: 0.0h ago
-- Liquidity unreadable today: 5 of 205 (2%)
-- Liquidity unreadable overall: 96 of 6853 (1%)
+- Liquidity unreadable today: 2 of 210 (1%)
+- Liquidity unreadable overall: 96 of 6896 (1%)
 - Market weather at the latest scan: **NEUTRAL**
-- Passed every check in the last 24h (paper only, NOT safe): GTA, PMUP, Shinagami, TRUMPDOLLAR, FOMOPAD, pumpcat, XD, NOMO, KANE
+- Passed every check in the last 24h (paper only, NOT safe): PMUP, Shinagami, TRUMPDOLLAR, FOMOPAD, pumpcat, XD, NOMO, KANE, TRUMP2028, ELON2028
 
 ## v1.4 test progress
-- Coins with a 24h outcome: **6408 of 100**
-- Blocked by the gate: 66% lost 70%+, 1% doubled (n=6041)
-- Survivors: 78% lost 70%+, 2% doubled (n=217)
+- Coins with a 24h outcome: **6446 of 100**
+- Blocked by the gate: 66% lost 70%+, 1% doubled (n=6076)
+- Survivors: 78% lost 70%+, 2% doubled (n=218)
 
 ## Paper trades
-- Logged: **222** (9 still open), with a result so far: 220
+- Logged: **224** (10 still open), with a result so far: 222
 - Median result after costs: -99.8%   losers: 94%
 - Worst so far: Audaster at -101%
 
